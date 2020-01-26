@@ -35,7 +35,7 @@ public class SearchDressTest {
 		ChromeOptions options = new ChromeOptions();
 		
 		//Brave
-		options.setBinary("K:\\Programas\\BraveSoftware\\Brave-Browser\\Application\\Brave.exe");
+		//options.setBinary("K:\\Programas\\BraveSoftware\\Brave-Browser\\Application\\Brave.exe");
 
 		options.addArguments("--start-maximized");
 		driver = new ChromeDriver(options);
